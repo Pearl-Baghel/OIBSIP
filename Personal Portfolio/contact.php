@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // Send an email or store the data in a database
   // For example, you can use the mail function to send an email
 
-  $to = "youremail@example.com";
+  $to = "pearlbaghel@gmail.com";
   $subject = "New contact form submission";
   $body = "Name: $name\nEmail: $email\nMessage:\n$message";
   mail($to, $subject, $body);
